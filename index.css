@@ -1,0 +1,72 @@
+/* Fill CSS here */
+.container {
+    display: flex;
+    gap: 30px;
+}
+h1 {
+  text-align: center;
+  align-items: center;
+  color:blueviolet;
+  font-family: serif;
+}
+    form {
+        /* max-width: 400px; */
+        margin: 10px 20px 20px 20px;
+        box-shadow: blueviolet;
+        padding: 20px 20px 20px 20px;
+        background-color: #b3b8be;
+        
+
+      }
+      
+      
+      label {
+        display: block;
+        font-weight: bold;
+        border-radius: 15px;
+        width: 80%;
+        /* padding: 10px; */
+        font-size: 16px;
+      }
+      .department{
+        border-radius: 15px;
+        width: 80%;
+        font-size: 16px;
+      }
+      .button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 15px;
+        width: 80%;
+      }
+      
+      .button:hover {
+        background-color: #b3b8be;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 10px 20px 20px 20px;
+        padding: 20px 20px 20px 20px;
+
+
+      }
+      
+      table th, table td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+      }
+      
+      table th {
+        background-color: #a496bd;
+        
+      }
+     table td > #btn{
+        cursor: pointer;
+      }
